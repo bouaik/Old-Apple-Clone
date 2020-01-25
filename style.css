@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 #container {
-    width: 1300px;
+    width: 1400px;
     margin: auto;
 }
 .banner {
     height: 700px;
-    background-image:url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+    background-image:url(img/your_verse_hero.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,11 +82,9 @@
 .banner-text .banner-paragraph {
     padding-top: 20px;
     font-size: 35px;
-    width: 70%;
+    width: 60%;
     margin: auto;
     font-weight: 100;
-    
-    font-family: 'Dosis', sans-serif;
 }
 .banner-text .banner-link {
     padding-top: 20px;
@@ -100,4 +98,57 @@
 }
 .banner-text .banner-link:hover {
     text-decoration: underline;
+}
+.images {
+    display: flex;
+    margin-top: 3px;
+    justify-content: space-between;
+}
+.images .images-container {
+    width: 24.8%;
+}
+.images .images-container img {
+    width: 100%;
+}
+footer {
+    width: 75%;
+    margin: auto;
+    font-size: 10px;
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    color: #888;
+    word-spacing: 3px;
+}
+.footer .footer-list {
+    display: flex;
+    list-style: none;
+}
+.footer-link {
+    text-decoration: none;
+    padding: 0 8px;
+    border-right: 1px solid #888;
+    color: #08c;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+.footer-list .flag-link {
+    border-right: none;
+    font-size: 12px;
+}
+footer .paragraph-link {
+    color: #08c;
+    text-decoration: none;
+}
+footer .paragraph-link:hover {
+    text-decoration: underline;
+}
+.footer-copy-rights {
+    margin-top: 10px;
 }
