@@ -10,7 +10,6 @@ For this project i used linear gradient proprety to make the color of the navbar
 
 - HTML5
 - CSS3
-- technologies used
 
 ## Live Demo
 
